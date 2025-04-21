@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "408181053361",
+    "project_id": "junnotiservice",
+    "storage_bucket": "junnotiservice.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408181053361:android:25008112f5fcab7357cf90",
+        "android_client_info": {
+          "package_name": "com.example.jun_notification_service"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrDLk_yaNuqvHdDQZrW8ZnbectoGUCjdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
