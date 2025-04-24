@@ -1,0 +1,12 @@
+{
+"Simulator Target Bundle": "com.example.junNotificationService",
+"aps": {
+    "alert": {
+        "title": "Notification Title",
+        "body": "Notifications body"
+     },
+    "mutable-content": 1,
+    "category": "myNotificationCategory",
+ },
+"image": "https://cdn.pixabay.com/photo/2020/03/19/18/20/motocross-4948269_1280.jpg"
+}

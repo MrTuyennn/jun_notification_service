@@ -42,3 +42,12 @@ post_install do |installer|
     flutter_additional_ios_build_settings(target)
   end
 end
+
+
+target 'ContentService' do
+  use_frameworks!
+end
+
+target 'NotificationService' do
+  use_frameworks!
+end
