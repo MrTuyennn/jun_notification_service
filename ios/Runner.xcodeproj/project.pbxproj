@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		7A480E362DB9E08C00534FD7 /* ContentService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7A480E282DB9E08B00534FD7 /* ContentService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7A480E482DB9E0DB00534FD7 /* NotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7A480E412DB9E0DB00534FD7 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7A480E722DB9E31C00534FD7 /* test-fcm.apns in Resources */ = {isa = PBXBuildFile; fileRef = 7A480E712DB9E31B00534FD7 /* test-fcm.apns */; };
+		7A4A6B672DBB28B200226B5C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A6B662DBB28A800226B5C /* AppConstants.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
@@ -96,6 +97,7 @@
 		7A480E2B2DB9E08C00534FD7 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		7A480E412DB9E0DB00534FD7 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A480E712DB9E31B00534FD7 /* test-fcm.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-fcm.apns"; sourceTree = "<group>"; };
+		7A4A6B662DBB28A800226B5C /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
 		7D359922D4285E6A922F5B44 /* Pods_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D40A48DB3EF6D0611EE39F4 /* Pods-NotificationService.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.profile.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.profile.xcconfig"; sourceTree = "<group>"; };
@@ -202,6 +204,14 @@
 			path = RunnerTests;
 			sourceTree = "<group>";
 		};
+		7A4A6B652DBB289800226B5C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7A4A6B662DBB28A800226B5C /* AppConstants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		9740EEB11CF90186004384FC /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +253,7 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
+				7A4A6B652DBB289800226B5C /* Utils */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
 				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
@@ -609,6 +620,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
+				7A4A6B672DBB28B200226B5C /* AppConstants.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
